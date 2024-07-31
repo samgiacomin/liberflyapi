@@ -12,19 +12,19 @@ composer install
 ```
 php artisan key:generate
 ```
-5. Gerar o token jwt
+4. Gerar o token jwt
 ```
 php artisan jwt:secret
 ```
-6. Executar as migrações
+5. Executar as migrações
 ```
 php artisan migrate:fresh --seed
 ```
-7. Iniciar o app
+6. Iniciar o app
 ```
 php artisan serve
 ```
-8. Consulte a api executando:
+7. Consulte a api executando:
 http://localhost:8000/api/documentation
 
 Fazer login com o usuario user@gmail.com e password "123456"
